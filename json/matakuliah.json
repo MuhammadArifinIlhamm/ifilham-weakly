@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "id": "c1",
+      "code": "INF101",
+      "name": "Pemrograman web",
+      "sks": 2,
+      "day": "Rabu",
+      "time": "09:40 - 11:50"
+    },
+    {
+      "id": "c2",
+      "code": "INF102",
+      "name": "Pengolahan Citra Digital",
+      "sks": 2,
+      "day": "Kamis",
+      "time": "13:00 - 15:30"
+    }
+  ]
+}

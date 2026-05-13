@@ -1,0 +1,20 @@
+{
+  "lecturers": [
+    {
+      "id": "l1",
+      "nim": "0012345678",
+      "name": "M. Firmansyah, Ph.D.",
+      "title": "Professor",
+      "expertise": "Artificial Intelligence",
+      "email": "firmansyah@unimus.ac.id"
+    },
+    {
+      "id": "l2",
+      "nidn": "0087654321",
+      "name": "Dr. Sarah Smith",
+      "title": "Associate Professor",
+      "expertise": "Software Engineering",
+      "email": "sarah@unimus.ac.id"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "username": "MuhammadArifinIlham",
+      "password": "admin",
+      "name": "Administrator",
+      "role": "Admin"
+    }
+  ]
+}
