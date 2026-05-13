@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "nim": "13182420007",
+      "name": "Muhammad Arifin Ilham",
+      "email": "arifin@example.com",
+      "major": "Informatika",
+      "semester": 4,
+      "gpa": 3.85,
+      "status": "Aktif",
+      "attendance": 95,
+      "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=arifin"
+    },
+    {
+      "id": "2",
+      "nim": "13182420008",
+      "name": "Siti Aminah",
+      "email": "siti@example.com",
+      "majogitr": "Informatika",
+      "semester": 4,
+      "gpa": 3.92,
+      "status": "Aktif",
+      "attendance": 98,
+      "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=siti"
+    },
+    {
+      "id": "3",
+      "nim": "13182410001",
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "major": "Informatika",
+      "semester": 2,
+      "gpa": 3.45,
+      "status": "Aktif",
+      "attendance": 88,
+      "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=budi"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SIAMAS - Sistem Informasi Akademik Mahasiswa",
+  "description": "Sistem terintegrasi untuk pengelolaan data mahasiswa, dosen, mata kuliah, dan statistik akademik Informatika Kelas A.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

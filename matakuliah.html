@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Kuliah - SIAMAS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div style="background: var(--primary); width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white;">S</div>
+                <span>SIAMAS</span>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="dashboard.html" class="nav-link"><span>📊</span> <span>Dashboard</span></a></li>
+                <li class="nav-item"><a href="mahasiswa.html" class="nav-link"><span>👥</span> <span>Mahasiswa</span></a></li>
+                <li class="nav-item"><a href="dosen.html" class="nav-link"><span>🎓</span> <span>Dosen</span></a></li>
+                <li class="nav-item"><a href="matakuliah.html" class="nav-link active"><span>📚</span> <span>Mata Kuliah</span></a></li>
+                <li class="nav-item"><a href="laporan.html" class="nav-link"><span>📈</span> <span>Laporan Ringkas</span></a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <div class="top-bar">
+                <div>
+                    <h1 style="font-size: 1.5rem; font-weight: 800;">Manajemen Mata Kuliah</h1>
+                    <div id="breadcrumb-container"></div>
+                </div>
+            </div>
+
+            <div class="card animate-fade">
+                <table style="width: 100%; text-align: left; border-collapse: collapse;">
+                    <thead>
+                        <tr style="border-bottom: 1px solid #f1f5f9;">
+                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Kode</th>
+                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Mata Kuliah</th>
+                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">SKS</th>
+                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Waktu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid #f8fafc;">
+                            <td style="padding: 1rem; font-family: monospace;">INF101</td>
+                            <td style="padding: 1rem; font-weight: 700;">Algoritma & Pemrograman</td>
+                            <td style="padding: 1rem;">3</td>
+                            <td style="padding: 1rem;">Senin, 08:00 - 10:30</td>
+                        </tr>
+                         <tr style="border-bottom: 1px solid #f8fafc;">
+                            <td style="padding: 1rem; font-family: monospace;">INF102</td>
+                            <td style="padding: 1rem; font-weight: 700;">Struktur Data</td>
+                            <td style="padding: 1rem;">3</td>
+                            <td style="padding: 1rem;">Selasa, 13:00 - 15:30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
