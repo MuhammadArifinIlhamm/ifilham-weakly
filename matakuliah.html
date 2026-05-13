@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mata Kuliah - SIAMAS</title>
+    <title>Jadwal - SIAMAS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
 </head>
@@ -16,46 +16,38 @@
             </div>
             <ul class="nav-links">
                 <li class="nav-item"><a href="dashboard.html" class="nav-link"><span>📊</span> <span>Dashboard</span></a></li>
+                <li class="nav-item"><a href="jadwal.html" class="nav-link active"><span>📅</span> <span>Jadwal Kuliah</span></a></li>
                 <li class="nav-item"><a href="mahasiswa.html" class="nav-link"><span>👥</span> <span>Mahasiswa</span></a></li>
                 <li class="nav-item"><a href="dosen.html" class="nav-link"><span>🎓</span> <span>Dosen</span></a></li>
-                <li class="nav-item"><a href="matakuliah.html" class="nav-link active"><span>📚</span> <span>Mata Kuliah</span></a></li>
-                <li class="nav-item"><a href="laporan.html" class="nav-link"><span>📈</span> <span>Laporan Ringkas</span></a></li>
+                <li class="nav-item"><a href="matakuliah.html" class="nav-link"><span>📚</span> <span>Mata Kuliah</span></a></li>
             </ul>
         </aside>
 
         <main class="main-content">
             <div class="top-bar">
                 <div>
-                    <h1 style="font-size: 1.5rem; font-weight: 800;">Manajemen Mata Kuliah</h1>
+                    <h1 style="font-size: 1.5rem; font-weight: 800;">Jadwal Perkuliahan</h1>
                     <div id="breadcrumb-container"></div>
                 </div>
             </div>
 
-            <div class="card animate-fade">
-                <table style="width: 100%; text-align: left; border-collapse: collapse;">
-                    <thead>
-                        <tr style="border-bottom: 1px solid #f1f5f9;">
-                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Kode</th>
-                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Mata Kuliah</th>
-                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">SKS</th>
-                            <th style="padding: 1rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">Waktu</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom: 1px solid #f8fafc;">
-                            <td style="padding: 1rem; font-family: monospace;">INF101</td>
-                            <td style="padding: 1rem; font-weight: 700;">Algoritma & Pemrograman</td>
-                            <td style="padding: 1rem;">3</td>
-                            <td style="padding: 1rem;">Senin, 08:00 - 10:30</td>
-                        </tr>
-                         <tr style="border-bottom: 1px solid #f8fafc;">
-                            <td style="padding: 1rem; font-family: monospace;">INF102</td>
-                            <td style="padding: 1rem; font-weight: 700;">Struktur Data</td>
-                            <td style="padding: 1rem;">3</td>
-                            <td style="padding: 1rem;">Selasa, 13:00 - 15:30</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="grid animate-fade" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+                <div class="card">
+                    <h3 style="font-weight: 800; border-bottom: 2px solid var(--primary); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1rem;">Senin</h3>
+                    <div style="background: var(--primary-light); padding: 1rem; border-radius: 1rem; margin-top: 0.5rem;">
+                        <p style="font-weight: 800; color: var(--primary);">08:00 - 10:30</p>
+                        <p style="font-size: 0.875rem;">Algoritma & Pemrograman</p>
+                        <p style="font-size: 0.75rem; color: var(--text-muted);">Ruang Lab 2</p>
+                    </div>
+                </div>
+                 <div class="card">
+                    <h3 style="font-weight: 800; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1rem;">Selasa</h3>
+                    <div style="background: #fef3c7; padding: 1rem; border-radius: 1rem; margin-top: 0.5rem;">
+                        <p style="font-weight: 800; color: #d97706;">13:00 - 15:30</p>
+                        <p style="font-size: 0.875rem;">Struktur Data</p>
+                        <p style="font-size: 0.75rem; color: var(--text-muted);">Ruang C 302</p>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
