@@ -25,7 +25,7 @@
             <p style="font-size: 1.25rem; color: #64748b; margin-top: 1.5rem; line-height: 1.6;">Solusi cerdas manajemen data mahasiswa, dosen, dan mata kuliah Informatika Kelas A dengan performa tinggi dan antarmuka intuitif.</p>
             
             <div style="margin-top: 3rem; display: flex; gap: 1rem; justify-content: center;">
-                <a href="login.html" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.125rem;">Mulai Sekarang</a>
+                <a href="login.php" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.125rem;">Mulai Sekarang</a>
                 <a href="#" class="btn" style="background: white; border: 1px solid #e2e8f0; padding: 1rem 2.5rem; font-size: 1.125rem;">Tutorial</a>
             </div>
 

@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Tambah Data mahasiswa</h2>
-    <from action "mahasiswa.html" method="post">
+    <from action "mahasiswa.php" method="post">
         <table cell padding="5px">
             <tr>
                 <td><label for="nama">NAMA</label></td>

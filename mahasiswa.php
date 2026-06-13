@@ -15,11 +15,11 @@
                 <span>SIAMAS</span>
             </div>
             <ul class="nav-links">
-                <li class="nav-item"><a href="dashboard.html" class="nav-link"><span>📊</span> <span>Dashboard</span></a></li>
-                <li class="nav-item"><a href="mahasiswa.html" class="nav-link active"><span>👥</span> <span>Mahasiswa</span></a></li>
-                <li class="nav-item"><a href="dosen.html" class="nav-link"><span>🎓</span> <span>Dosen</span></a></li>
-                <li class="nav-item"><a href="matakuliah.html" class="nav-link"><span>📚</span> <span>Mata Kuliah</span></a></li>
-                <li class="nav-item"><a href="laporan.html" class="nav-link"><span>📈</span> <span>Laporan Ringkas</span></a></li>
+                <li class="nav-item"><a href="dashboard.php" class="nav-link"><span>📊</span> <span>Dashboard</span></a></li>
+                <li class="nav-item"><a href="mahasiswa.php" class="nav-link active"><span>👥</span> <span>Mahasiswa</span></a></li>
+                <li class="nav-item"><a href="dosen.php" class="nav-link"><span>🎓</span> <span>Dosen</span></a></li>
+                <li class="nav-item"><a href="matakuliah.php" class="nav-link"><span>📚</span> <span>Mata Kuliah</span></a></li>
+                <li class="nav-item"><a href="laporan.php" class="nav-link"><span>📈</span> <span>Laporan Ringkas</span></a></li>
             </ul>
         </aside>
 
