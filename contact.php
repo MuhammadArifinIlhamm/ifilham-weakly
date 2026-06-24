@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>WEB INFORMATIKA A</h1>
+
+    <h1>WEB INFORMATIKA</h1>
     <hr>
-    <table border="1" cellspacing="0" cellpadding="15px">
+
+    <table border="1" cellspacing="0" cellpadding="10px">
         <tr>
-            <td> <a href="index.php">Home</a>
+            <td>
+                <a href="index.php">Home</a>
             </td>
-
-            <td> <a href="profile.php">Profile</a>
+            <td>
+                <a href="profile.php">Profile</a>
             </td>
-
-            <td> <a href="contact.php">Contact</a>
+            <td>
+                <a href="contact.php">Contact</a>
             </td>
-
-            <td> <a href="mahasiswa.php">data mahasiswa</a>
+            <td>
+                <a href="mahasiswa.php">Data Mahasiswa</a>
             </td>
         </tr>
     </table>
-    
+
+    <br>
+
+    <h2>Contact Us</h2>
+
+    <p>Email : muhammadarifinilham167@gmail.com@gmail.com</p>
+    <p>Instagram : @ariflha__</p>
+    <p>WhatsApp : 085727719421</p>
+    <p>Alamat : Semarang</p>
+
 </body>
 </html>
