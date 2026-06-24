@@ -35,7 +35,7 @@
     <b>Jabatan:</b> <i>gatau</i><br><br>
 
     <b>Sambutan:</b><br>
-    Selamat datang di Progra Studi Informatika, Semoga tercapai.
+    Selamat datang di Program Studi Informatika, Semoga tercapai.
 </p>
 <h3>daftar publikasi</h3>
     <ul>
