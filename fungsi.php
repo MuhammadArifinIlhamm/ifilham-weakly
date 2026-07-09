@@ -1,6 +1,8 @@
 <?php
 
-$koneksi = mysqli_connect("localhost", "root", "", "ifilham-weakly");
+$koneksi = mysqli_connect("localhost", "root", "", "dithoweekly-A");
+
+
 
 function tampildata($query)
 {
@@ -103,5 +105,77 @@ function editdata($data)
 
     return mysqli_affected_rows($koneksi);
 }
+function register($data)
+{
+    global $koneksi;
 
+    $username = strtolower(stripslashes($data["username"]));
+    $password1 = $data["password1"] ?? "";
+    $password2 = $data["password2"] ?? "";
+
+    // cek konfirmasi password
+    if ($password1 !== $password2) {
+        echo "<script>
+                alert('Konfirmasi password tidak sesuai!');
+              </script>";
+        return false;
+    }
+
+    // cek username sudah digunakan atau belum
+    $queryrow = "SELECT username FROM user WHERE username = '$username'";
+    $result = mysqli_query($koneksi, $queryrow);
+
+    if (mysqli_num_rows($result) > 0) {
+        echo "<script>
+                alert('Username sudah digunakan!');
+              </script>";
+        return false;
+    }
+
+    // enkripsi password
+    $password = password_hash($password1, PASSWORD_DEFAULT);
+
+    // simpan ke database
+    $query = "INSERT INTO user (username, password)
+              VALUES ('$username', '$password')";
+
+    mysqli_query($koneksi, $query);
+
+    return mysqli_affected_rows($koneksi);
+}
+
+
+function login($data)
+{
+    global $koneksi;
+
+    // Ambil input dari form
+    $username = strtolower(trim($data["username"]));
+    $password = trim($data["password"]);
+
+    // Cari user berdasarkan username
+    $result = mysqli_query(
+        $koneksi,
+        "SELECT * FROM user WHERE username = '$username'"
+    );
+
+    // Jika username ditemukan
+    if (mysqli_num_rows($result) == 1) {
+
+        $row = mysqli_fetch_assoc($result);
+
+        // Verifikasi password hash
+        if (password_verify($password, $row["password"])) {
+
+            // Membuat session login
+            $_SESSION["login"] = true;
+            $_SESSION["username"] = $row["username"];
+            $_SESSION["user_id"] = $row["id"];
+
+            return 1;
+        }
+    }
+
+    return 0;
+}
 ?>

@@ -9,7 +9,7 @@
 <body>
     <h1>WEB INFORMATIKA </h1>
     <hr>
-  <table border="1" celspacing="0" cellpadding="10px">
+    <table border="1" cellspacing="0" cellpadding="10">
     <tr>
         <td>
             <a href="index.php">Home</a>
