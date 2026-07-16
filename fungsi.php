@@ -1,6 +1,6 @@
 <?php
 
-$koneksi = mysqli_connect("localhost", "root", "", "dithoweekly-A");
+$koneksi = mysqli_connect("localhost", "root", "", "ifilham-weakly");
 
 
 
