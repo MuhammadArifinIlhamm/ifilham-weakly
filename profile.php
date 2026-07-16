@@ -31,7 +31,7 @@
         <div class="profile-text">
 
             <h3>Nama Lengkap</h3>
-            <p>Mohammad Arifin Ilham</p>
+            <p>Muhammad Arifin Ilham</p>
 
             <h3>NIM</h3>
             <p>13182420007</p>
