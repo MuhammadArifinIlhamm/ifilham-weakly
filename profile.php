@@ -23,7 +23,7 @@
     <h2>Profil Mahasiswa</h2>
 
     <!-- FOTO DI BAWAH JUDUL -->
-   <img src="assets/images/terang.jpg"
+   <img src="assets/images/Foto1.webp"
      alt="Foto Mahasiswa"
      class="profile-photo">
     <div class="profile-container">
